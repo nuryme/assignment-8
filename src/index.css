@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+
+/* .active {
+    @apply underline underline-offset-4
+} */
+.logo {
+    @apply text-xl font-bold text-white
+}
+.h1 {
+    @apply text-5xl font-bold
+}
+.h3 {
+    @apply font-bold text-[32px] text-secondaryColor
+}
+.h5 {
+    @apply text-lg font-bold text-secondaryColor
+}
+.bodyText {
+    @apply text-xl font-medium text-secondaryColor/60
+}
+.button {
+    @apply px-8 py-4 bg-white rounded-[32px] text-xl font-bold text-primaryColor
+}
+@tailwind utilities;
+
+body {
+    font-family: "Sora";
+}
