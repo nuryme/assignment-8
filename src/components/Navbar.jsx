@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { FaRegHeart } from "react-icons/fa";
 import { IoCartOutline } from "react-icons/io5";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
+import { getCart, getWishlist } from "../Utils";
 
-export default function NavBar() {
+export default function NavBar({ pathname }) {
+  // const navigate = useNavigate()
+  // console.log(navigate)
+
   return (
-    <div className="navbar bg-base-100 rounded-t-[32px] px-32 py-4 text-white bg-primaryColor">
+    <div className="navbar px-8  lg:px-32 py-4">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -26,37 +30,64 @@ export default function NavBar() {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow menuBar"
           >
             <li>
-              <NavLink>Home</NavLink>
+              <NavLink to={"/"}>Home</NavLink>
             </li>
             <li>
-              <NavLink>Statistic</NavLink>
+              <NavLink to={"/statistic"}>Statistic</NavLink>
             </li>
             <li>
-              <NavLink>Dashboard</NavLink>
+              <NavLink to={"/dashboard"}>Dashboard</NavLink>
+            </li>
+            <li>
+              <NavLink to={"/contact"}>Contact Us</NavLink>
             </li>
           </ul>
         </div>
-        <Link to={'/'} className="logo">Gadget Heaven</Link>
+        <Link
+          to={"/"}
+          className={pathname === "/" ? "logo" : "logo text-secondaryColor"}
+        >
+          Gadget Heaven
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal px-1 menuBar">
           <li>
-            <NavLink>Home</NavLink>
+            <NavLink to={"/"}>Home</NavLink>
           </li>
           <li>
-            <NavLink>Statistic</NavLink>
+            <NavLink to={"/statistic"}>Statistic</NavLink>
           </li>
           <li>
-            <NavLink>Dashboard</NavLink>
+            <NavLink to={"/dashboard"}>Dashboard</NavLink>
+          </li>
+          <li>
+            <NavLink to={"/contact"}>Contact Us</NavLink>
           </li>
         </ul>
       </div>
       <div className="navbar-end space-x-4 text-secondaryColor">
-        <Link className="bg-white rounded-full p-4"><IoCartOutline /></Link>
-        <Link className="bg-white rounded-full p-4"><FaRegHeart /></Link>
+        <Link
+          className={
+            pathname === "/"
+              ? "bg-white rounded-full p-4"
+              : "bg-white rounded-full p-4 border border-secondaryColor/60"
+          }
+        >
+          <IoCartOutline />
+        </Link>
+        <Link
+          className={
+            pathname === "/"
+              ? "bg-white rounded-full p-4"
+              : "bg-white rounded-full p-4 border border-secondaryColor/60"
+          }
+        >
+          <FaRegHeart />
+        </Link>
       </div>
     </div>
   );

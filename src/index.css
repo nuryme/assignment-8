@@ -8,7 +8,10 @@
     @apply text-xl font-bold text-white
 }
 .h1 {
-    @apply text-5xl font-bold
+    @apply text-3xl lg:text-5xl font-bold
+}
+.h2 {
+    @apply text-2xl font-semibold text-secondaryColor
 }
 .h3 {
     @apply font-bold text-[32px] text-secondaryColor
@@ -22,8 +25,22 @@
 .button {
     @apply px-8 py-4 bg-white rounded-[32px] text-xl font-bold text-primaryColor
 }
+
+ul .active {
+    @apply underline underline-offset-4
+}
+.active {
+    @apply bg-primaryColor text-white
+}
+.dashBoard .active {
+    @apply bg-white text-primaryColor border-none
+}
 @tailwind utilities;
 
 body {
     font-family: "Sora";
+}
+
+html {
+    overflow-y: scroll;
 }

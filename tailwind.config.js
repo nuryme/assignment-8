@@ -11,7 +11,8 @@ export default {
       },
       colors: {
         primaryColor: '#9538E2',
-        secondaryColor: '#09080F'
+        secondaryColor: '#09080F',
+        badge: '#309C08'
       }
     },
   },

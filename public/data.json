@@ -1,0 +1,227 @@
+[
+    {
+      "product_id": "L001",
+      "product_title": "Dell XPS 13",
+      "product_image": "https://i.pinimg.com/474x/29/f3/99/29f399aec2699d49113314f1e96d5063.jpg",
+      "category": "Laptops",
+      "price": 1299,
+      "description": "Ultra-thin, lightweight laptop with a stunning display.",
+      "specification": [
+        "13.4-inch FHD+ Display",
+        "Intel Core i7-1250U",
+        "16GB RAM, 512GB SSD",
+        "Intel Iris Xe Graphics",
+        "Windows 11 Home"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "L002",
+      "product_title": "Dell XPS 15",
+      "product_image": "https://i.pinimg.com/474x/fd/74/f2/fd74f28dc93caee92a8ee293a3e0fe6f.jpg",
+      "category": "Accessories",
+      "price": 1899,
+      "description": "Powerful laptop with a stunning 15-inch InfinityEdge display.",
+      "specification": [
+        "15.6-inch 4K UHD+ Touch Display",
+        "Intel Core i7-12700H",
+        "16GB RAM, 512GB SSD",
+        "NVIDIA GeForce RTX 3050 Ti",
+        "Fingerprint Reader",
+        "Windows 11 Pro"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "L003",
+      "product_title": "MacBook Pro 16",
+      "product_image": "https://i.pinimg.com/474x/30/ad/04/30ad0478e14c689ac56871eea4d2ee68.jpg",
+      "category": "Laptops",
+      "price": 2499,
+      "description": "A high-performance MacBook for professionals and creators.",
+      "specification": [
+        "16.2-inch Liquid Retina XDR Display",
+        "Apple M2 Max chip",
+        "32GB Unified Memory",
+        "1TB SSD Storage",
+        "Up to 22 hours battery life",
+        "macOS Ventura"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "P001",
+      "product_title": "Apple iPhone 15 Pro Max",
+      "product_image": "https://i.pinimg.com/474x/cc/12/f1/cc12f1e1469bba03388b15d3b27187f3.jpg",
+      "category": "Phones",
+      "price": 1299,
+      "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
+      "specification": [
+        "6.7-inch Super Retina XDR display",
+        "A17 Bionic chip",
+        "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
+        "LiDAR Scanner",
+        "Up to 2TB storage"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "P002",
+      "product_title": "Samsung Galaxy S23 Ultra",
+      "product_image": "https://i.pinimg.com/474x/74/42/8f/74428fa69a4380d1548b101c1c8572da.jpg",
+      "category": "Phones",
+      "price": 1199,
+      "description": "The most powerful Galaxy smartphone with S Pen integration.",
+      "specification": [
+        "6.8-inch Dynamic AMOLED 2X",
+        "Snapdragon 8 Gen 2",
+        "200MP + 12MP + 10MP + 10MP Quad Camera",
+        "5000mAh Battery",
+        "Android 13"
+      ],
+      "availability": false,
+      "rating": 4.7
+    },
+    {
+      "product_id": "A001",
+      "product_title": "Apple AirPods Pro (2nd Gen)",
+      "product_image": "https://i.pinimg.com/474x/2d/f3/4d/2df34d6f8687d916ae287788eac761f4.jpg",
+      "category": "Accessories",
+      "price": 249,
+      "description": "Active Noise Cancellation for immersive sound.",
+      "specification": [
+        "H2 Chip",
+        "Adaptive Transparency",
+        "MagSafe Charging Case",
+        "Sweat and Water Resistant",
+        "Personalized Spatial Audio"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    
+    {
+      "product_id": "M001",
+      "product_title": "MacBook Air M2",
+      "product_image": "https://i.pinimg.com/474x/cf/ae/5d/cfae5d59e0de794e1523bf4b662eced0.jpg",
+      "category": "Laptops",
+      "price": 1199,
+      "description": "Thin, light, and powerful with the M2 chip.",
+      "specification": [
+        "13.6-inch Liquid Retina Display",
+        "Apple M2 Chip",
+        "8GB RAM, 256GB SSD",
+        "Up to 18-hour battery life",
+        "macOS Ventura"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "M002",
+      "product_title": "Microsoft Surface Laptop 5",
+      "product_image": "https://i.pinimg.com/474x/3b/25/24/3b25249c24ad483f7198f4eee3db66b4.jpg",
+      "category": "Laptops",
+      "price": 1399,
+      "description": "Sleek design with powerful performance.",
+      "specification": [
+        "13.5-inch PixelSense Display",
+        "Intel Core i7-1265U",
+        "16GB RAM, 512GB SSD",
+        "Intel Iris Xe Graphics",
+        "Windows 11"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "L004",
+      "product_title": "HP Spectre x360",
+      "product_image": "https://i.pinimg.com/474x/c4/05/1a/c4051a153384d172cf9fbe4e38b826a9.jpg",
+      "category": "Laptops",
+      "price": 1699,
+      "description": "A premium convertible laptop with a stunning OLED display.",
+      "specification": [
+        "13.3-inch OLED Touch Display",
+        "Intel Core i7-12700H",
+        "16GB RAM, 512GB SSD",
+        "Intel Iris Xe Graphics",
+        "Windows 11 Home"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "L005",
+      "product_title": "ASUS ROG Zephyrus G14",
+      "product_image": "https://i.pinimg.com/474x/e0/45/c6/e045c6b30cff05311ee6f21051833a54.jpg",
+      "category": "Laptops",
+      "price": 1799,
+      "description": "A powerful gaming laptop with an AMD Ryzen 9 processor.",
+      "specification": [
+        "14-inch QHD 165Hz Display",
+        "AMD Ryzen 9 6900HS",
+        "32GB RAM, 1TB SSD",
+        "NVIDIA GeForce RTX 3060",
+        "Windows 11 Pro"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+        {
+          "product_id": "P003",
+          "product_title": "Google Pixel 8 Pro",
+          "product_image": "https://i.pinimg.com/474x/29/ef/2f/29ef2fe391affc22cd6edc7f0df5748e.jpg",
+          "category": "Phones",
+          "price": 999,
+          "description": "Google's flagship phone with AI-powered features.",
+          "specification": [
+            "6.7-inch LTPO OLED 120Hz display",
+            "Google Tensor G3 Chip",
+            "50MP Wide + 48MP Ultrawide + 48MP Telephoto",
+            "5000mAh Battery",
+            "Android 14"
+          ],
+          "availability": true,
+          "rating": 4.6
+        },
+        {
+          "product_id": "P004",
+          "product_title": "OnePlus 11 5G",
+          "product_image": "https://i.pinimg.com/474x/74/56/a3/7456a319dca633882c6f3f8c73b79533.jpg",
+          "category": "Phones",
+          "price": 899,
+          "description": "A premium smartphone with fast performance and long battery life.",
+          "specification": [
+            "6.7-inch AMOLED 120Hz display",
+            "Snapdragon 8 Gen 2",
+            "50MP Main + 48MP Ultrawide + 32MP Telephoto",
+            "5000mAh Battery with 100W Fast Charging",
+            "OxygenOS based on Android 13"
+          ],
+          "availability": true,
+          "rating": 4.5
+        },
+        {
+          "product_id": "P005",
+          "product_title": "Xiaomi 13 Pro",
+          "product_image": "https://i.pinimg.com/474x/ca/f9/00/caf9009fd2fc09c445ff8c3d30a0532a.jpg",
+          "category": "Phones",
+          "price": 1099,
+          "description": "A flagship phone with Leica-powered cameras.",
+          "specification": [
+            "6.73-inch LTPO AMOLED 120Hz display",
+            "Snapdragon 8 Gen 2",
+            "50MP + 50MP + 50MP Triple Camera",
+            "4820mAh Battery with 120W Fast Charging",
+            "MIUI 14 based on Android 13"
+          ],
+          "availability": true,
+          "rating": 4.7
+        }      
+  ]
+  
